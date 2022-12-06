@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "start": "ts-node-dev --respawn --pretty --transpile-only src/lambdaRun.ts"
+    "start": "ts-node-dev --respawn --pretty --transpile-only src/lambdaRun.ts",
+    "build": "tsc"
   },
   "author": "aaochoa",
   "license": "ISC",
